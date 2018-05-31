@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KlikNelayanWakatobi</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="masuk">Masuk</string>
+    <string name="footer">Dinas Kelautan Dan Perikanan Kabupaten Wakatobi © 2017</string>
+    <string name="produksi_hasil_laut">Produksi Hasil Laut</string>
+    <string name="chat_bantuan">Chat Bantuan</string>
+    <string name="search">Cari Anggota</string>
+    <string name="input_hasil_produksi">Input Hasil Produksi</string>
+    <string name="foto_produk">Foto Produk</string>
+    <string name="upload">Upload</string>
+    <string name="browse">Browse</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_positive_yes">Yes</string>
+    <string name="btn_negative_no">No</string>
+    <string name="map_info">*Sentuh untuk menentukan lokasi</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B98F0</color>
+    <color name="colorPrimaryDark">#2278CF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white_20">#77FFFFFF</color>
+    <color name="header_main_menu">@color/colorPrimary</color>
+    <color name="border_user_icon">#2C98f0</color>
+    <color name="btn_green">#1FBCD2</color>
+    <color name="orange">#FD9727</color>
+    <color name="btn_green_dark">#1797A6</color>
+    <color name="separator">#D1D1D1</color>
+</resources>

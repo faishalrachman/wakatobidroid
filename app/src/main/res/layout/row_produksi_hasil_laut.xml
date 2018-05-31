@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="8dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivRowProduksiHasilLaut"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvNamaKomoditiRowProduksiHasilLaut"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/ivRowProduksiHasilLaut"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="(Nama Komoditi)" />
+
+            <TextView
+                android:id="@+id/tvWeightRowProduksiHasilLaut"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/ic_weight"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_weight"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/ivRowProduksiHasilLaut"
+                app:layout_constraintTop_toBottomOf="@+id/tvNamaKomoditiRowProduksiHasilLaut"
+                tools:text="00 kg, 00 cm" />
+
+            <TextView
+                android:id="@+id/tvToolsRowProduksiHasilLaut"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/ic_pickup_tools"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_pickup_tools"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/ivRowProduksiHasilLaut"
+                app:layout_constraintTop_toBottomOf="@+id/tvWeightRowProduksiHasilLaut"
+                tools:text="Jaring Lingkar" />
+
+            <TextView
+                android:id="@+id/tvPriceRowProduksiHasilLaut"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/ic_price"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_price"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/ivRowProduksiHasilLaut"
+                app:layout_constraintTop_toBottomOf="@+id/tvToolsRowProduksiHasilLaut"
+                tools:text="Rp. 00,00" />
+
+            <TextView
+                android:id="@+id/tvLocationRowProduksiHasilLaut"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/ic_location_black"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_location_black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/ivRowProduksiHasilLaut"
+                app:layout_constraintTop_toBottomOf="@+id/tvPriceRowProduksiHasilLaut"
+                tools:text="Long , Lat" />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
